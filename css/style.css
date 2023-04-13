@@ -1,3 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 body {
   background-color: black;
+}
+
+button {
+  font-family: "roboto";
+  font-size: 2rem;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: gray;
+}
+
+.calculator {
+  display: grid;
+  width: 400px;
+  height: 600px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 13px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 40px;
+}
+
+.display {
+  font-family: "roboto";
+  grid-column: span 4;
+  display: flex;
+  color: #fff;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 2.5rem;
+  margin: auto 0;
+  margin-right: 5px;
+}
+
+.sp2 {
+  grid-column: span 2;
 }
