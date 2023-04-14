@@ -9,8 +9,6 @@ button {
   font-size: 2rem;
   border-radius: 50px;
   border: none;
-  color: white;
-  background-color: gray;
 }
 
 .calculator {
@@ -44,8 +42,22 @@ button {
 
 .op {
   background-color: #f69906;
+  color: #fff;
 }
 
 button:hover {
   opacity: 0.9;
+}
+.clear {
+  grid-column: span 2;
+  background-color: #a0a0a0;
+}
+.wgray {
+  /* % button color */
+  background-color: #a0a0a0;
+}
+.num,
+.dot {
+  color: #fff;
+  background-color: #313131;
 }
