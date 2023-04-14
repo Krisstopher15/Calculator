@@ -13,6 +13,7 @@ const getValue = (button) => {
     display.textContent = eval(displayCalculation);
   } else if (value == "%") {
     display.textContent = displayCalculation / 100;
+    calculation = [];
   } else {
     calculation.push(value);
     displayCalculation = calculation.join("");
