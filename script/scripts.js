@@ -6,7 +6,7 @@ let displayCalculation;
 const getValue = (button) => {
   const value = button.textContent;
 
-  if (value == "C") {
+  if (value == "AC") {
     calculation = [];
     display.textContent = "0";
   } else if (value == "=") {
